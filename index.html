@@ -211,8 +211,8 @@
     UnityLoader.compatibilityCheck = function (e, t, r) {
         t();
     };
-    var gameInstance = UnityLoader.instantiate("gameContainer", "Build/geo.json", {onProgress: UnityProgress});
     window.onbeforeunload = function() { return true }:
+    var gameInstance = UnityLoader.instantiate("gameContainer", "Build/geo.json", {onProgress: UnityProgress});
 
     function UnityProgress(gameInstance, progress) {
 
